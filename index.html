@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Stock Search</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+  <!-- rendered buttons will be placed in navigation  -->
+  <nav class="nav navbar-light bg-dark fixed-top" id="btn-view">
+    <span class="navbar-brand mb-0 h1">Stock Search:</span>
+
+
+  </nav>
+  <main class="container">
+    <div class="row">
+            <!-- section is where all of the stock information will be rendered  -->
+        <section class="col-8" id="stocks-view">
+
+        </section>
+        <aside class="col-4">
+          <form id="stock-form" class="">
+            <label for="">Add Stock Symbol:</label> <br>
+            <input id="stock-input" type="text" placeholder="" name="" value="">
+            <input id="add-stock" type="submit" name="" value="Search">
+          </form>
+        </aside>
+    </div>
+
+
+  </main>
+  <!-- aside is where the search bar will be as well as favorites -->
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="app.js" charset="utf-8"></script>
+</body>
+
+</html>

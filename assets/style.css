@@ -1,0 +1,31 @@
+body {
+  background-image: url("black-linen-2.png");
+}
+
+ .container {
+  margin-left: 40px;
+  padding-top: 11%;
+  /* justify-content: flex-start; */
+ }
+.stock {
+  border: solid 1px black;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+h2, img {
+  padding: 15px;
+}
+
+img {
+  border-radius: 30px;
+}
+li {
+list-style: none;
+}
+a {
+  color: black;
+}
+a:hover {
+  color: white;
+  text-decoration: none;
+}
